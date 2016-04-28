@@ -35,7 +35,7 @@
 
 ## 三.MotionEvent中 get 和 getRaw 的区别
 ```
-    event.getX();       //触摸点相对于其所在组件坐标系的坐标
+    event.getX();       //触摸点相对于其所在组件坐标系的坐标(相对于父控件)
     event.getY();
 
     event.getRawX();    //触摸点相对于屏幕默认坐标系的坐标
